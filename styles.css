@@ -1,0 +1,141 @@
+body{
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content:center;
+    background-color: rgb(255, 232, 102);
+
+    
+}
+#container{
+    
+    
+    width: 400px;
+    margin:0% 5%;
+    border: 1px solid black;
+    border-top-left-radius: 50px ;
+    border-top-right-radius: 50px;
+    height: 830px;
+    background-color: white;
+    
+    
+}
+
+#header{
+    
+    color: white;
+    padding-top: 1px;
+    margin: 5px;
+    border-top-left-radius: 50px ;
+    border-top-right-radius: 50px;
+    height: 250px;
+    background-image: url("header.jpg");
+    background-size:cover;
+}
+
+h1{
+    width: 300px;
+    margin: auto auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(3, 51, 94);
+    margin-top: 100px;
+    font-size: 300%;   
+}
+
+.des{
+    font-size: 15px;
+}
+.quote{
+    margin: auto auto;
+    width: 220px;
+    background-color: rgb(3, 51, 94);
+    font-size: 103%;
+    font-style:italic;
+}
+
+.btn{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    background-color: rgb(245, 209, 110);
+    border-color: rgb(248, 248, 248);
+    font-weight: bold;
+    font-family: 'cooper';
+    padding: 5px;
+}
+    
+
+
+#inter{
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(245, 191, 120);
+    margin: 5px;
+}
+
+.cp1,.cp2,.cp3{
+    /* background-color: aqua; */
+    border-radius: 100px;
+    width: 100px;
+    height: 90px;
+}
+
+
+.cp {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.text {
+    
+    display: flex;
+    justify-content:space-around;   
+}
+
+#cp1:hover{
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 8, 0);
+  
+
+}
+
+#cp2:hover{
+ border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 8, 0);
+}
+
+#cp3:hover{
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 8, 0);
+}
+
+.map{
+    width: 180px;
+    margin: 5px 5px;
+
+}
+
+.mapf{
+    margin-left:2px;
+}
+
+.footer{
+
+  display: flex;
+  /* padding: 20px; */
+  justify-content:space-around;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 198, 9);
+  width: 390px;
+  border-bottom:4px solid rgb(255, 0, 0);
+
+}
+
+.dev{
+    text-align: center;
+    background-color:rgb(253, 175, 30);
+    padding: 10px;
+}
+    
